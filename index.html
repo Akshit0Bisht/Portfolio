@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -14,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Playfair+Display&family=Roboto+Mono:wght@500&display=swap"
         rel="stylesheet">
 
+        <link id="theme-style" rel="stylesheet" type="text/css" href="blue.css">
 </head>
 
 <body>
@@ -121,36 +123,42 @@
 
             <div class="post-wrapper">
 
-                <div class="post">
-                    <img class="thumbnail" src="images/vaccine.png" alt="">
-                    <div class="post-preview">
-                        <h6 class="post-title">Post Title</h6>
-                        <p class="post-intro">Vaccine availabilty project.
-                            some more project.
-                        </p>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/vaccine.png" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">Vaccine availabilty project.
+                                some more project</p>
+                                <a href="post. html">Read More</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="post">
-                    <img class="thumbnail" src="images/vaccine.png" alt="">
-                    <div class="post-preview">
-                        <h6 class="post-title">Post Title</h6>
-                        <p class="post-intro">Vaccine availabilty project.
-                            some more project.
-                        </p>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/vaccine.png" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">Vaccine availabilty project.
+                                some more project
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="post">
-                    <img class="thumbnail" src="images/pic.png" alt="">
-                    <div class="post-preview">
-                        <h6 class="post-title">Post Title</h6>
-                        <p class="post-intro">Vaccine availabilty project.
-                            some more project.
-                        </p>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/weather.png" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">Weather checking website.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -158,7 +166,24 @@
 
     <section class="s2">
         <div class="main-container">
-            Contact
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+
         </div>
     </section>
 
