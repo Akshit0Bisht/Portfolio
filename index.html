@@ -7,15 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Playfair+Display&family=Roboto+Mono:wght@500&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Playfair+Display&family=Roboto+Mono:wght@500&display=swap"
         rel="stylesheet">
 
-        <link id="theme-style" rel="stylesheet" type="text/css" href="blue.css">
+        <link rel="stylesheet" type="text/css" href="style.css">  
+
+        <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+       <!--<link id="theme-style" rel="stylesheet" type="text/css" href="green.css">
+
+        <link id="theme-style" rel="stylesheet" type="text/css" href="purple.css">-->
+
+        
 </head>
 
 <body>
@@ -43,11 +48,12 @@
                 <div class="left-column">
                     <img id="profile_pic" src="images/pic.png">
                     <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+                    
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
 
                     <p id="settings-note">Theme seetings wil be saved for <br>your next visit
@@ -110,7 +116,7 @@
                    <h3>Find me on Github & Linkedin</h3>
 
                    <a target="_blank" href="https://github.com/Akshit0Bisht">Github: @Akshit0Bisht</a>
-                   <a  target="_blank" href="https://www.linkedin.com/in/akshit-bisht-8a078916b/">Linked: @Akshitbisht</a>
+                   <a  target="_blank" href="https://www.linkedin.com/in/akshit-bisht-8a078916b/">LinkedIn: @Akshitbisht</a>
                 </div>
             </div>
         </div>
@@ -186,6 +192,8 @@
 
         </div>
     </section>
+
+    <script type="text/javascript" src="main.js"></script>
 
 </body>
 
